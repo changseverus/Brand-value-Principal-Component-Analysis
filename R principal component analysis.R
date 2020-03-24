@@ -1,4 +1,4 @@
-# 手機 保險業品牌力調查
+# cellphone and insurance companies brand power
 
 library(haven)
 library(stats)
@@ -34,6 +34,6 @@ cell_pca$rotation
 risk_pca$rotation
 
 # plot the screeplot of PCs and cumulative variance plot
-screeplot(cell_pca, type="1", npcs=8, main="陡坡圖")
-screeplot(risk_pca, type="1", npcs=10, main="陡坡圖")
+screeplot(cell_pca, type="1", npcs=8, main="screeplot")
+screeplot(risk_pca, type="1", npcs=10, main="screeplot")
 
